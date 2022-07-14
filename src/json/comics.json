@@ -1,0 +1,14 @@
+{
+    "comics": {
+        "onePunchMan": {
+            "pages": {
+                "page1": {
+                    "src": "img/p1.jpg"
+                },
+                "page2": {
+                    "src": "img/p2.jpg"
+                }
+            }
+        }
+    }
+}
