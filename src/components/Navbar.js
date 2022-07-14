@@ -15,8 +15,13 @@ const Navbar = ({about, number, }) => {
         </a>
     </div>
     <div className="navbar-menu">
-        <div className="navbar-end"><a className="navbar-item" href="#">{about}</a><a className="navbar-item" href="#">Company</a><a className="navbar-item" href="#">Services</a><a className="navbar-item" href="#">Testimonials</a></div>
-        <div className="navbar-item"><a className="button is-primary" href="#">Contact Us</a></div>
+        <div className="navbar-end">
+            <a className="navbar-item" href="#">{about}</a>
+            <a className="navbar-item" href="#">Something</a>
+            <a className="navbar-item" href="#">blablabla</a>
+            <a className="navbar-item" href="#">noe med comics</a>
+        </div>
+        <div className="navbar-item"><a className="button is-primary" href="#">Kontakt benjamin ikke meg lol</a></div>
     </div>
 </nav>
   )
