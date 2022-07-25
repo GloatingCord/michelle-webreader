@@ -1,6 +1,7 @@
 import './App.css';
 import Navbar from './components/Navbar';
-import Page from './components/Page';
+import ComicPage from './components/Comic';
+import Waifu from './components/Waifu';
 
 function App() {
     return (
@@ -9,7 +10,8 @@ function App() {
                 <section className="section pt-0">
                     <Navbar about="hei Michelle!" number={1} />
                     <div className="container pt-5">
-                        <Page></Page>
+                        <ComicPage></ComicPage>
+                        <Waifu/>
                     </div>
                 </section>
             </header>
