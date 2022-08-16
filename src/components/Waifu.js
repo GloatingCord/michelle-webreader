@@ -1,13 +1,13 @@
 import { useState, useEffect } from "react";
-import { getapi } from "../helpers";
+import { getapi } from "../helpers/waifuApiHelpers";
 
 const Waifu = () => {
     const [url, setUrl] = useState("");
-    const [category, setCategory] = useState('smile');
+    const [category, setCategory] = useState('waifu');
 
     const updateUrl = async () => {
-        const data = await getapi("https://api.waifu.pics/sfw/" + category);
-        setUrl(data.url);
+        const data = await getapi("https://api.waifu.im/random/?selected_tags=" + category);
+        setUrl(data);
     };
 
     const onKeyPress = ({ key, currentTarget}) => {

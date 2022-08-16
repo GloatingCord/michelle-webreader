@@ -6,5 +6,6 @@ export async function getapi(api_url) {
     
     // Storing data in form of JSON
     const data = await response.json();
-    return (data);
+    console.log(data[0]);
+    return data.images[0].url;
 }
