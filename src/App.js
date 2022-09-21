@@ -3,7 +3,6 @@ import Home from "./pages/Home";
 import Comic from "./pages/Comic";
 import Navbar from './components/Navbar';
 import Waifu from './components/Waifu';
-import trumpQuote from './components/trumpQuote';
 import './App.css';
 import About from "./pages/About";
 import NotFound from "./pages/NotFound";
@@ -22,7 +21,6 @@ function App() {
                         <Route path="/waifu" element={<Waifu />} />
                         <Route path="/*" element={<NotFound />} />
                     </Routes>
-                        <trumpQuote />
                     </div>
                 </section>
             </header>

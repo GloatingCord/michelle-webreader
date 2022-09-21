@@ -1,12 +1,11 @@
 import PropTypes from 'prop-types'
 
-
 const Navbar = ({about, number, }) => {
   return (
     <nav className="navbar py-4">
     <div className="navbar-brand">
-        <a className="navbar-item" href="#">
-            <img className="image" src="bulma-plain-assets/logos/plainb-logo.svg" alt="" width="96px"/>
+        <a className="navbar-item" href="/">
+            <img className="image" src="img/logos/nav-logo.png" alt="" width="100px" />
         </a>
         <a className="navbar-burger" role="button" aria-label="menu" aria-expanded="false">
             <span aria-hidden="true"></span>
